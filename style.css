@@ -57,3 +57,73 @@ nav {
     line-height: 152%;
     text-transform: capitalize;
 }
+
+/* hero section  */
+#hero {
+    background-image: url(./images/hero-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 115px 0 180px;
+}
+
+.hero-content {
+    max-width: 770px;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.white-bg-text {
+    background-color: #fff;
+    color: #469165;
+    padding: 8px 12px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    max-width: 229px;
+    margin: 0 auto;
+}
+
+.circle-icon {
+    width: 16px;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 4.5rem;
+    line-height: 5.25rem;
+    text-transform: capitalize;
+    color: #fff;
+}
+
+.green-text {
+    color: #469165;
+}
+
+.hero-content p {
+    font-size: 1.125rem;
+    line-height: 2rem;
+    color: #fff;
+    padding: 0 6%;
+}
+
+.hero-btn {
+    margin-top: 16px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.play-btn {
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    border: 1px solid #fff;
+}
