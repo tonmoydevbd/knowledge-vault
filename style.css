@@ -32,6 +32,20 @@ img {
     cursor: pointer;
 }
 
+.section-heading {
+    padding: 16px 0;
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 100%;
+    text-transform: capitalize;
+    color: #001931;
+}
+
+.section-text {
+    line-height: 20px;
+    color: #627382;
+}
+
 
 /* nav section  */
 nav {
@@ -134,20 +148,6 @@ h1 {
     text-align: center;
 }
 
-.notes-content h2 {
-    padding: 16px 0;
-    font-weight: 700;
-    font-size: 3rem;
-    line-height: 100%;
-    text-transform: capitalize;
-    color: #001931;
-}
-
-.notes-content p {
-    line-height: 20px;
-    color: #627382;
-}
-
 .notes-card-container {
     margin: 44px 0;
     display: grid;
@@ -170,4 +170,41 @@ h1 {
     padding: 14px;
     background-color: #f95555;
     border-radius: 50%;
+}
+
+/* brain section  */
+#brain {
+    display: flex;
+    gap: 60px;
+    align-items: center;
+}
+
+.brain-img {
+    max-width: 600px;
+}
+
+.brain-text {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    max-width: 500px;
+}
+
+.solution-text {
+    font-weight: 500;
+    line-height: 20px;
+    text-transform: uppercase;
+}
+
+.brain-text ul {
+    margin-top: 24px;
+}
+
+.brain-text ul li {
+    font-weight: 500;
+    line-height: 20px;
+    color: #001931;
+    list-style-image: url(./images/CheckCircle.png);
+    list-style-position: inside;
+    margin: 10px 0;
 }
