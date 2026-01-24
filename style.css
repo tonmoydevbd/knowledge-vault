@@ -208,3 +208,22 @@ h1 {
     list-style-position: inside;
     margin: 10px 0;
 }
+
+/* early access section  */
+#early-access {
+    padding: 120px 0;
+}
+
+.early-access-container {
+    background-color: #F7F6F2;
+    padding: 80px 40px;
+}
+
+.early-access-content {
+    max-width: 660px;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
