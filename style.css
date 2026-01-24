@@ -127,3 +127,47 @@ h1 {
     background-color: transparent;
     border: 1px solid #fff;
 }
+
+/* notes section  */
+#notes {
+    padding: 80px 0;
+    text-align: center;
+}
+
+.notes-content h2 {
+    padding: 16px 0;
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 100%;
+    text-transform: capitalize;
+    color: #001931;
+}
+
+.notes-content p {
+    line-height: 20px;
+    color: #627382;
+}
+
+.notes-card-container {
+    margin: 44px 0;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 24px;
+}
+
+.notes-card {
+    padding: 70px 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px 1px rgb(224, 224, 224);
+}
+
+.notes-card-icon {
+    width: 60px;
+    padding: 14px;
+    background-color: #f95555;
+    border-radius: 50%;
+}
